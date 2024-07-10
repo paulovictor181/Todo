@@ -16,11 +16,8 @@ import jakarta.validation.Valid;
 
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.server.ResponseStatusException;
+
              
- 
-
-
-
 
 
 @Controller
@@ -117,5 +114,6 @@ public class TodoController {
     
         return "redirect:/";
     }
+    
     
 }
