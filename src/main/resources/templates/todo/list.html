@@ -7,8 +7,8 @@
   <main>
     <h1>Lista de Tarefas</h1>
 
-    <table class="table" th:unless="${#lists.isEmpty(todos)}">
-        <thead>
+    <table id="table-todos" class="table table-dark table-hover" th:unless="${#lists.isEmpty(todos)}">
+        <thead >
           <tr>
             <th scope="col">#</th>
             <th scope="col">Título</th>
